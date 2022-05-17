@@ -20,6 +20,8 @@ This app was created by the following:
 - React Native
 - Expo
 - Socket io
+- JavaScript Maps API
+- Google Geocode API
 
 ## Installation Instructions
 
