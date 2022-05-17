@@ -8,7 +8,7 @@ https://github.com/vbrooke78/OddJobs-Backend
  
 ## Authors
 
-This app was created by the following: 
+👤 **Authors**
 
 - [Vicky Brooke · GitHub](https://github.com/vbrooke78) 
 - [Akin Fagbohun · GitHub](https://github.com/datboyakin)
