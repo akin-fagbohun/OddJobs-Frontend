@@ -29,9 +29,11 @@ This app was created by the following:
 Fork this repo.
 In your terminal input the following:
 
-```bash
+```sh
 git clone https://github.com/vbrooke78/OddJobs-Frontend.git
-
+```
+To install dependencies
+```sh
 cd OddJobs-Frontend
 
 npm install
@@ -39,7 +41,7 @@ npm install
 
 MacOS users will also need to run the following command:
 
-```bash
+```sh
 npx pod-install
 ```
 
