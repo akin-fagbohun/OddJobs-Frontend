@@ -23,10 +23,11 @@ This app was created by the following:
 
 ## Installation Instructions
 
+Fork this repo.
 In your terminal input the following:
 
 ```bash
-git clone https://github.com/datboyakin/OddJobs-Frontend.git
+git clone https://github.com/vbrooke78/OddJobs-Frontend.git
 
 cd OddJobs-Frontend
 
