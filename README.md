@@ -4,7 +4,7 @@
  
 The repo for the backend can be found here:
 
-https://github.com/vbrooke78/OddJobs-Backend
+https://github.com/Tavelors/OddJobs-Backend
  
 ## Authors
 
