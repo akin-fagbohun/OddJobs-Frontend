@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "OddJobs-Frontend",
-    "slug": "OddJobs-Frontend",
+    "name": "OddJobs",
+    "slug": "OddJobs",
+    "description": "Marketplace app for odd jobs",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "orientation": "portrait",
+
+    "assetBundlePatterns": ["**/*"]
   }
 }
