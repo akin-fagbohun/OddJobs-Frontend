@@ -1,13 +1,14 @@
-# OddJobs-Frontend
+# OddJobs - Frontend
 
 > This is the frontend part of our group project, Odd Jobs, a mobile app to help connect members of the community who require, or wish to offer, help with odd jobs. Users have the ability to either post a job, or respond to a posted job. There is also an integrated chat feature which enables users to communicate about a job. The user’s location is pinned to a map which displays jobs in the surrounding area.
  
 The repo for the backend can be found here:
-https://github.com/Tavelar/OddJobs-Backend
+
+[https://github.com/vbrooke78/OddJobs-Backend](https://github.com/Tavelors/OddJobs-Backend)
  
 ## Authors
 
-This app was created by the following: 
+👤 **Authors**
 
 - [Vicky Brooke · GitHub](https://github.com/vbrooke78) 
 - [Akin Fagbohun · GitHub](https://github.com/datboyakin)
@@ -20,14 +21,19 @@ This app was created by the following:
 - React Native
 - Expo
 - Socket io
+- JavaScript Maps API
+- Google Geocode API
 
 ## Installation Instructions
 
+Fork this repo.
 In your terminal input the following:
 
-```bash
-git clone https://github.com/datboyakin/OddJobs-Frontend.git
-
+```sh
+git clone https://github.com/vbrooke78/OddJobs-Frontend.git
+```
+To install dependencies
+```sh
 cd OddJobs-Frontend
 
 npm install
@@ -35,7 +41,7 @@ npm install
 
 MacOS users will also need to run the following command:
 
-```bash
+```sh
 npx pod-install
 ```
 
