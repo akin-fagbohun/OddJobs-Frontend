@@ -51,6 +51,7 @@ import {
   updateUserMessages,
 } from './utils.js';
 import { getUserMessages } from './api';
+import { LogBox } from 'react-native-web';
 
 // global login context
 export const AuthContext = React.createContext(null);
@@ -62,7 +63,7 @@ export const SetAllMessagesContext = React.createContext(null);
 
 export default function App() {
   /// disable app warnings for demo video ///
-  console.disableYellowBox = true;
+  LogBox.ignoreAllLogs(true);
 
   let [fontsLoaded] = useFonts({
     Inter_100Thin,
@@ -173,7 +174,7 @@ export default function App() {
                 <Tab.Screen name="Home" options={{ headerShown: false }}>
                   {() => (
                     <AllMessagesContext.Provider value={messages}>
-                      <Stack.Navigator>        
+                      <Stack.Navigator>
                         <Stack.Screen
                           name="HomeScreen"
                           component={HomeScreen}
