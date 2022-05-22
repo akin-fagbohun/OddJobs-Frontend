@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "OddJobs",
-    "slug": "OddJobs",
+    "slug": "OddJobs-Frontend",
     "description": "Marketplace app for odd jobs",
     "version": "1.0.0",
     "orientation": "portrait",
