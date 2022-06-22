@@ -1,3 +1,5 @@
+import { LogBox } from 'react-native';
+
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
@@ -51,7 +53,6 @@ import {
   updateUserMessages,
 } from './utils.js';
 import { getUserMessages } from './api';
-import { LogBox } from 'react-native-web';
 
 // global login context
 export const AuthContext = React.createContext(null);
@@ -62,8 +63,8 @@ export const AllMessagesContext = React.createContext(null);
 export const SetAllMessagesContext = React.createContext(null);
 
 export default function App() {
-  /// disable app warnings for demo video ///
-  LogBox.ignoreAllLogs(true);
+  // Ignore all log notifications:
+  LogBox.ignoreAllLogs();
 
   let [fontsLoaded] = useFonts({
     Inter_100Thin,
